@@ -25,35 +25,36 @@
     <header>
         <!--MENU MOBILE-->
         <ul class="side-nav" id="menu-mobile">
-            <li><a href="">Home</a></li>
-            <li><a href="">Sobre o Boa Forma</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">Unidades</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre o Boa Forma</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#unidades">Unidades</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
 
         <div class="navbar-fixed">
             <nav class="navbar z-depth-0">
-                <div class="nav-wrapper container ">
+                <div class="nav-wrapper nav-padding">
                     <h1 class="logo_text">Centro Boa Forma - Seu espaço de saude</h1>
                     <a href=""><img class="logo_img" src="img/logo.png" alt="Centro Boa Forma"></a>
 
                     <ul class="right light hide-on-med-and-down">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Sobre o Boa Forma</a></li>
-                        <li><a href="">Serviços</a></li>
-                        <li><a href="">Unidades</a></li>
-                        <li><a href="">Contato</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre o Boa Forma</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#unidades">Unidades</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
 
-                    <a data-activates="menu-mobile" href="#" class="button-collapse right"><i
-                            class="material-icons">menu</i></a>
+                    <a data-activates="menu-mobile" href="#" class="button-collapse right">
+                        <i class="large material-icons">menu</i></a>
                 </div>
             </nav>
         </div>
     </header>
+
     <!--HOME-->
-    <section class="home bloco">
+    <section class="home bloco scrollspy" id="home">
         <div class="row container banner">
             <div class="col s12 center">
                 <h2 class="white-text">O melhor treinamento funcional da região</h2>
@@ -67,10 +68,10 @@
     </section>
 
     <!--SOBRE-->
-    <section class="sobre bloco">
+    <section class="sobre bloco scrollspy" id="sobre">
         <div class="row container">
             <div class="col s12 center">
-                <h2 class="light texto-justificado">Sobre nós</h2>
+                <h2 class="light">Sobre nós</h2>
             </div>
 
             <div class="col s12 l6">
@@ -82,12 +83,133 @@
                     more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
                     Ipsum.</p>
             </div>
+
             <div class="col s12 l6">
-               
+                <div class="carousel carousel-slider" data-indicators="true">
+                    <a class="carousel-item" href="#one!"><img src="img/banner-01.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img src="img/banner-02.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img src="img/banner-03.jpg"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row blue-logo missao-visao-valores">
+            <div class="container">
+                <article class="item col s12 m4 center">
+                    <span class="icon"><i class="material-icons medium">directions_run</i></span>
+                    <h3 class="light">Missão</h3>
+                    <p class="light">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                        more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                        making it look like readable English. Many desktop publishing packages and web page editors now
+                        use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
+                        web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                        accident, sometimes on purpose (injected humour and the like).</p>
+                </article>
+                <article class="item col s12 m4 center">
+                    <span class="icon"><i class="material-icons medium">visibility</i></span>
+                    <h3 class="light">Visão</h3>
+                    <p class="light">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                        more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                        making it look like readable English. Many desktop publishing packages and web page editors now
+                        use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
+                        web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                        accident, sometimes on purpose (injected humour and the like).</p>
+                </article>
+                <article class="item col s12 m4 center">
+                    <span class="icon"><i class="material-icons medium">grade</i></span>
+                    <h3 class="light">Valores</h3>
+                    <p class="light">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                        more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                        making it look like readable English. Many desktop publishing packages and web page editors now
+                        use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
+                        web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                        accident, sometimes on purpose (injected humour and the like).</p>
+                </article>
+
             </div>
         </div>
     </section>
 
+    <!--SERVIÇOS-->
+    <section class="servicos bloco scrollspy" id="servicos">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light">Serviços</h2>
+                <p class="light">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                    making it look like readable English. Many desktop publishing packages and web page editors now
+                    use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
+                    web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                    accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+        </div>
+
+        <div class="row container">
+            <article class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/pilates.jpg" alt="Pilates" class="materialboxed">
+                        <a class="btn btn-floating halfway-fab blue-logo">
+                            <i class="material-icons">more_horiz</i>
+                        </a>
+                        <div class="card-content">
+                            <h3>Pilates</h3>
+                            <p class="light">Pilates é top op dmais varios benefitis e tals</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/nutricao.jpg" alt="Nutrição" class="materialboxed">
+                            <a class="btn btn-floating halfway-fab blue-logo">
+                                <i class="material-icons">more_horiz</i>
+                            </a>
+                            <div class="card-content">
+                                <h3>Nutrição</h3>
+                                <p class="light">Nutrição é top op dmais varios benefitis e tals</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/fisioterapia.jpg" alt="fisioterapia" class="materialboxed">
+                                <a class="btn btn-floating halfway-fab blue-logo">
+                                    <i class="material-icons">more_horiz</i>
+                                </a>
+                                <div class="card-content">
+                                    <h3>Fisioterapia</h3>
+                                    <p class="light">Fisio é top op dmais varios benefitis e tals</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col s12 m6 l3">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="img/funcional.jpg" alt="Funcional" class="materialboxed">
+                                    <a class="btn btn-floating halfway-fab blue-logo">
+                                        <i class="material-icons">more_horiz</i>
+                                    </a>
+                                    <div class="card-content">
+                                        <h3>Funcional</h3>
+                                        <p class="light">Funcional é top op dmais varios benefitis e tals</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+        </div>
+    </section>
 
 
 
@@ -125,9 +247,28 @@
 
     <!--FUNÇOES MATERIALIZE-->
     <script>
+        //INICIALIZAÇÃO
         $(document).ready(function () {
+            //MENU MOBILE
             $(".button-collapse").sideNav();
-        })
+            //LINK INTERNO
+            $(".scrollspy").scrollSpy({
+                scrollOffset: 0
+            });
+            //SLIDER
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true
+            });
+        });
+
+        //ADICIONANDO NAVCOLOR
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 800) {
+                $(".navbar").addClass("nav-color");
+            } else {
+                $(".navbar").removeClass("nav-color");
+            }
+        });
     </script>
 
 </body>

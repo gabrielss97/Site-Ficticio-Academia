@@ -13,13 +13,20 @@ html,body{height: 100%;}
 .navbar{
     background-color: transparent;
 }
-.navbar ul a:hover{background-color: transparent; color: #2dc7d0}
+.navbar ul a:hover{background-color: transparent; color: #2dc7d0;transition: background 0.5s linear;}
+.nav-color{
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background 0.5s linear;
+}
+.nav-padding{
+  padding: 0 5%;
+}
 
 /*HOME*/
 .home{animation:mudarbg 20s infinite; background-image: url('../img/bg.jpg');background-repeat: no-repeat;
     background-size: cover;}
-    .banner h2 {font-size: 2.5rem;font-weight: 900;text-transform: uppercase;}
-    .banner p {font-size: 1.2rem;line-height: 1.8rem;}
+.banner h2 {font-size: 2.5rem;font-weight: 900;text-transform: uppercase;}
+.banner p {font-size: 1.2rem;line-height: 1.8rem;}
 
 /*HOME - ANIMATION*/
 @keyframes mudarbg {
@@ -31,6 +38,62 @@ html,body{height: 100%;}
 /*SOBRE*/
 .sobre{
     background-image: url('../img/textura1.png')
+}
+.sobre h2 {
+  font-size: 2rem;
+  color: #212121;
+  text-transform: uppercase;
+}
+.sobre h2::after{
+  content: '';
+  display: block;
+  width: 100px;
+  border-top:1px solid #2dc7d0;
+  margin: 15px auto;
+}
+.sobre p{
+  line-height: 1.8rem;
+  text-align: justify;
+}
+.sobre .missao-visao-valores{
+  padding: 20px 0px;
+  margin-top: 35px
+}
+.sobre .missao-visao-valores .icon{
+  color: #fff
+}
+.sobre .missao-visao-valores h3{
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.sobre .missao-visao-valores p {
+  color: #fff;
+  text-align: center;
+}
+
+/*SERVIÇOS*/
+.servicos{
+  background-image: url('../img/textura2.png')
+}
+.servicos h2 {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.servicos h2::after{
+  content: '';
+  display: block;
+  width: 100px;
+  border-top:1px solid #2dc7d0;
+  margin: 15px auto;
+}
+.servicos p{
+  color: #fff;
+  line-height: 1.8rem;
+}
+.servicos h3{
+  font-size: 2rem
 }
 
 /*CUSTOM*/
@@ -79,6 +142,7 @@ nav i.material-icons {
 @media only screen and (min-width: 601px) {
     .banner {padding-top: 4.5rem}
     .banner h2{font-size: 4rem}
+    .container{width: 90%;}
   }
 
 @media only screen and (min-width: 993px) {
