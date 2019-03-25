@@ -25,11 +25,11 @@
     <header>
         <!--MENU MOBILE-->
         <ul class="side-nav" id="menu-mobile">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#sobre">Sobre o Boa Forma</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#unidades">Unidades</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a class="hide-menu" href="#home">Home</a></li>
+            <li><a class="hide-menu" href="#sobre">Sobre o Boa Forma</a></li>
+            <li><a class="hide-menu" href="#servicos">Serviços</a></li>
+            <li><a class="hide-menu" href="#unidades">Unidades</a></li>
+            <li><a class="hide-menu" href="#contato">Contato</a></li>
         </ul>
 
         <div class="navbar-fixed">
@@ -60,8 +60,8 @@
                 <h2 class="white-text">O melhor treinamento funcional da região</h2>
                 <p class="white-text light">Um novo conceito em prevençao, promoçao e reabilitação da saude...</p>
                 <div class="row">
-                    <div class="btn btn-large blue-logo radius">Sobre nós</div>
-                    <div class="btn btn-large white black-text radius">Contato</div>
+                    <a href="#sobre" class="btn btn-large blue-logo radius">Sobre nós</a>
+                    <a href="#contato" class="btn btn-large white black-text radius">Contato</a>
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
     <section class="sobre bloco scrollspy" id="sobre">
         <div class="row container">
             <div class="col s12 center">
-                <h2 class="light">Sobre nós</h2>
+                <h2 class="light titulo">Sobre nós</h2>
             </div>
 
             <div class="col s12 l6">
@@ -137,8 +137,8 @@
     <section class="servicos bloco scrollspy" id="servicos">
         <div class="row container">
             <div class="col s12 center">
-                <h2 class="light">Serviços</h2>
-                <p class="light">It is a long established fact that a reader will be distracted by the readable
+                <h2 class="light titulo white-text">Serviços</h2>
+                <p class="light paragrafo white-text">It is a long established fact that a reader will be distracted by the readable
                     content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
                     more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
                     making it look like readable English. Many desktop publishing packages and web page editors now
@@ -233,7 +233,7 @@
                 </div>
             </div>
 
-            <!--FUNCIOANAL-->
+            <!--FUNCIONAL-->
             <article class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
@@ -327,6 +327,97 @@
 
     </section>
 
+    <!--UNIDADES-->
+    <section class="unidades bloco scrollspy" id="unidades">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light titulo white-text">Unidades</h2>
+                <p class="light paragrafo white-text">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                    making it look like readable English. Many desktop publishing packages and web page editors now
+                    use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
+                    web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                    accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+        </div>
+
+        <div class="row container">
+            <!--BH-->
+            <article class="col s12 l6">
+                <div class="card horizontal">
+                    <div class="card-image card-image-horizontal">
+                        <img src="img/bh.jpg" alt="Belo Horizonote">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h3 class="card-title light">Belo Horizonte</h3>
+                            <p class="light">
+                                <i class="material-icons left">phone</i>123 312 312 <br>
+                                <i class="material-icons left">email</i>bh@boaforma.com <br>
+                                <i class="material-icons left">location_on</i>Av.belo horizonte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--SP-->
+            <article class="col s12 l6">
+                    <div class="card horizontal">
+                        <div class="card-image card-image-horizontal">
+                            <img src="img/bh.jpg" alt="Belo Horizonote">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <h3 class="card-title light">Sao Paulo</h3>
+                                <p class="light">
+                                    <i class="material-icons left">phone</i>123 312 312 <br>
+                                    <i class="material-icons left">email</i>sp@boaforma.com <br>
+                                    <i class="material-icons left">location_on</i>Av.sp
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!--RJ-->
+            <article class="col s12 l6">
+                    <div class="card horizontal">
+                        <div class="card-image card-image-horizontal">
+                            <img src="img/bh.jpg" alt="Belo Horizonote">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <h3 class="card-title light">Rio de Janeiro</h3>
+                                <p class="light">
+                                    <i class="material-icons left">phone</i>123 312 312 <br>
+                                    <i class="material-icons left">email</i>rj@boaforma.com <br>
+                                    <i class="material-icons left">location_on</i>Av.rj
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!--ES-->
+            <article class="col s12 l6">
+                    <div class="card horizontal">
+                        <div class="card-image card-image-horizontal">
+                            <img src="img/bh.jpg" alt="Belo Horizonote">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <h3 class="card-title light">Espirito Santo</h3>
+                                <p class="light">
+                                    <i class="material-icons left">phone</i>123 312 312 <br>
+                                    <i class="material-icons left">email</i>es@boaforma.com <br>
+                                    <i class="material-icons left">location_on</i>Av.ES
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+        </div>
+    </section>
+
 
 
 
@@ -379,6 +470,17 @@
             $(".modal").modal();
             //TABS
             $(".tabs").tabs();
+            //ESCONDER MENU AO CLICAR
+            $(".hide-menu").click(function(){
+                $(".button-collapse").sideNav("hide");
+            });
+            //AUTOPLAY
+            function autoplay(){
+                $(".carousel").carousel("next");
+                setTimeout(autoplay,4500);
+            }
+
+            autoplay();
         });
 
         //ADICIONANDO NAVCOLOR

@@ -1,0 +1,35 @@
+[33mcommit 678e155fb1662e391d3a3e3c3650d0ba552d3899[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: gabrielss97 <gabrielss97@users.noreply.github.com>
+Date:   Mon Mar 25 17:19:16 2019 -0300
+
+    modal/quadro de horarios/tabela de horarios
+
+[33mcommit 63c5370dea8a3fcef8bea18a08775dae61af55e2[m
+Author: gabrielss97 <gabrielss97@users.noreply.github.com>
+Date:   Thu Mar 21 18:21:31 2019 -0300
+
+    inclusao do serviços
+
+[33mcommit ec13d0efb9595269da5f9dc4f632203fff512a6a[m
+Author: gabrielss97 <gabrielss97@users.noreply.github.com>
+Date:   Thu Mar 21 15:16:21 2019 -0300
+
+    inclusao home, sobre, menu e menu colapse
+
+[33mcommit cabaab9d5e9114059a604c091d28fad05f3b6137[m
+Author: gabrielss97 <gabrielss97@users.noreply.github.com>
+Date:   Thu Mar 21 11:33:33 2019 -0300
+
+    exlcusao de arquivos para utilizar cdn
+
+[33mcommit 6edff0e0ce0a3ea8a219e91dc79a88e6b7b5fb44[m
+Author: gabrielss97 <gabrielss97@users.noreply.github.com>
+Date:   Thu Mar 21 11:25:52 2019 -0300
+
+    Inclusao do materialize
+
+[33mcommit 80965f525edcf37c19b6a4d5148e24053c259782[m
+Author: gabrielss97 <gabrielss97@users.noreply.github.com>
+Date:   Thu Mar 21 10:17:04 2019 -0300
+
+    first commit
