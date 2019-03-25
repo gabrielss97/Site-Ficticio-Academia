@@ -22,6 +22,10 @@ html,body{height: 100%;}
   padding: 0 5%;
 }
 
+.row{
+  margin-bottom: 0;
+}
+
 /*HOME*/
 .home{animation:mudarbg 20s infinite; background-image: url('../img/bg.jpg');background-repeat: no-repeat;
     background-size: cover;}
@@ -95,6 +99,10 @@ html,body{height: 100%;}
 .servicos h3{
   font-size: 2rem
 }
+.servicos .btn-horario{
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
 
 /*CUSTOM*/
 nav {
@@ -133,6 +141,22 @@ nav i.material-icons {
     height: 94px;
     line-height: 94px;
   }
+
+  .tabs .tab a {
+    color: black;
+  }
+
+  .tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #2dc7d0;
+}
+
+.tabs .indicator {
+  background-color: #2dc7d0;
+}
+.card{
+  margin: 0 1rem 2rem 1rem;
+}
 
 /*MEDIA*/
 @media only screen and (min-width: 480px) {
