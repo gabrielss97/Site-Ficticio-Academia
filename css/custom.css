@@ -134,6 +134,21 @@ html,body{height: 100%;}
   padding: 30px;
 }
 
+/*DEPOIMENTOS*/
+.depoimentos .titulo::after{border-color: #fff}
+.depoimentos img {width: 100px;}
+.depoimentos h4{
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+/*RODAPE*/
+.rodape{
+  background-image: url('../img/bg-rodape.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+}
 
 /*CUSTOM*/
 
