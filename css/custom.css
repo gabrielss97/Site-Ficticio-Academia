@@ -107,6 +107,33 @@ html,body{height: 100%;}
   line-height: 1.8rem;
 }
 
+/*CONTATO*/
+.contato{
+  background-image: url('../img/textura1.png')
+}
+.contato h4{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.contato .mapa{
+  min-height: 560px;
+}
+.contato .mapa iframe{
+  width: 100%;
+  min-height: 560px;
+  border: none;
+}
+.contato .informacoes{
+  background-image: url('../img/textura2.png');
+  min-height: 560px;
+  padding: 30px;
+}
+.contato .formulario{
+  min-height: 560px;
+  padding: 30px;
+}
+
 
 /*CUSTOM*/
 
@@ -165,11 +192,10 @@ nav i.material-icons, nav a.button-collapse i {
 @media only screen and (min-width: 601px) {
     .banner {padding-top: 4.5rem}
     .banner h2{font-size: 4rem}
-    .container{width: 90%;}
-    
   }
 
 @media only screen and (min-width: 993px) {
     .banner {padding-top: 5rem}
     .banner h2{font-size: 5rem}
 }
+
